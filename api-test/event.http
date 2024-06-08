@@ -1,0 +1,13 @@
+### GET events
+GET http://localhost:8080/events
+
+### POST events create event
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "name": "Test event",
+  "description": "Is a test event from http client",
+  "location": "Is a test location",
+  "dateTime": "2025-01-01T15:14:13.000Z"
+}
