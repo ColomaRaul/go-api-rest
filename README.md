@@ -2,10 +2,11 @@
 
 For launch server in localhost:
 ```shell
-go run .
+go run main.go
 ```
 
 
 ## Routes
 
-/events
+GET /events (get all events)
+POST /events (create an event)
